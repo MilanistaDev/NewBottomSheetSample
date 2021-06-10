@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         animalLabel.text = "❓"
         let sb = UIStoryboard(name: "AnimalList", bundle: nil)
         animalList = sb.instantiateInitialViewController()!
+        animalList.delegate = self
     }
 
     @IBAction func buttonDidTap(_ sender: Any) {
@@ -33,5 +34,16 @@ class ViewController: UIViewController {
             sheet.prefersScrollingExpandsWhenScrolledToEdge = false
         }
         present(animalList, animated: true)
+    }
+}
+
+extension ViewController: AnimalListDelegate {
+    func animalDidTap(animal: String) {
+        animalLabel.text = animal
+        if let sheet = animalList.popoverPresentationController?.adaptiveSheetPresentationController {
+            sheet.animateChanges {
+                sheet.selectedDetentIdentifier = .medium
+            }
+        }
     }
 }
