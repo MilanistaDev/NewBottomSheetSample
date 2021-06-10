@@ -15,6 +15,10 @@
 		FD489528267223CD00B536B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD489526267223CD00B536B9 /* LaunchScreen.storyboard */; };
 		FD489533267223CD00B536B9 /* NewBottomSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD489532267223CD00B536B9 /* NewBottomSheetTests.swift */; };
 		FD48953D267223CD00B536B9 /* NewBottomSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48953C267223CD00B536B9 /* NewBottomSheetUITests.swift */; };
+		FD48954A26722CC100B536B9 /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48954926722CC100B536B9 /* AnimalViewController.swift */; };
+		FD48954C26722DAB00B536B9 /* AnimalList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD48954B26722DAB00B536B9 /* AnimalList.storyboard */; };
+		FD48954F2672300200B536B9 /* AnimalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48954D2672300200B536B9 /* AnimalCollectionViewCell.swift */; };
+		FD4895502672300200B536B9 /* AnimalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD48954E2672300200B536B9 /* AnimalCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FD489532267223CD00B536B9 /* NewBottomSheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBottomSheetTests.swift; sourceTree = "<group>"; };
 		FD489538267223CD00B536B9 /* NewBottomSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewBottomSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD48953C267223CD00B536B9 /* NewBottomSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBottomSheetUITests.swift; sourceTree = "<group>"; };
+		FD48954926722CC100B536B9 /* AnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		FD48954B26722DAB00B536B9 /* AnimalList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnimalList.storyboard; sourceTree = "<group>"; };
+		FD48954D2672300200B536B9 /* AnimalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD48954E2672300200B536B9 /* AnimalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 				FD48951D267223CD00B536B9 /* SceneDelegate.swift */,
 				FD48951F267223CD00B536B9 /* ViewController.swift */,
 				FD489521267223CD00B536B9 /* Main.storyboard */,
+				FD48954926722CC100B536B9 /* AnimalViewController.swift */,
+				FD48954B26722DAB00B536B9 /* AnimalList.storyboard */,
+				FD48954D2672300200B536B9 /* AnimalCollectionViewCell.swift */,
+				FD48954E2672300200B536B9 /* AnimalCollectionViewCell.xib */,
 				FD489524267223CD00B536B9 /* Assets.xcassets */,
 				FD489526267223CD00B536B9 /* LaunchScreen.storyboard */,
 				FD489529267223CD00B536B9 /* Info.plist */,
@@ -229,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD489528267223CD00B536B9 /* LaunchScreen.storyboard in Resources */,
+				FD4895502672300200B536B9 /* AnimalCollectionViewCell.xib in Resources */,
 				FD489525267223CD00B536B9 /* Assets.xcassets in Resources */,
+				FD48954C26722DAB00B536B9 /* AnimalList.storyboard in Resources */,
 				FD489523267223CD00B536B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +271,9 @@
 			files = (
 				FD489520267223CD00B536B9 /* ViewController.swift in Sources */,
 				FD48951C267223CD00B536B9 /* AppDelegate.swift in Sources */,
+				FD48954A26722CC100B536B9 /* AnimalViewController.swift in Sources */,
 				FD48951E267223CD00B536B9 /* SceneDelegate.swift in Sources */,
+				FD48954F2672300200B536B9 /* AnimalCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

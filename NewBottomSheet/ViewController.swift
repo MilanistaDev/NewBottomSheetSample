@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var animalLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setUpUI()
     }
 
+    private func setUpUI() {
+        animalLabel.text = "❓"
+    }
 
+    @IBAction func buttonDidTap(_ sender: Any) {
+        
+    }
 }
-
