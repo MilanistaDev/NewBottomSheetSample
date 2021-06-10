@@ -25,11 +25,22 @@ class ViewController: UIViewController {
         animalList.delegate = self
     }
 
+    @IBAction func questionDidTap(_ sender: Any) {
+        let sb = UIStoryboard(name: "HowToUse", bundle: nil)
+        let question = sb.instantiateInitialViewController()!
+        question.modalPresentationStyle = .popover
+        if let sheet = question.popoverPresentationController?.adaptiveSheetPresentationController {
+            sheet.detents = [.medium()]
+            //sheet.preferredCornerRadius = 20.0
+        }
+        present(question, animated: true)
+    }
     @IBAction func buttonDidTap(_ sender: Any) {
         
         animalList.modalPresentationStyle = .popover
         if let sheet = animalList.popoverPresentationController?.adaptiveSheetPresentationController {
             sheet.detents = [.medium(), .large()]
+            //sheet.preferredCornerRadius = 20.0
             sheet.prefersGrabberVisible = true
             sheet.prefersScrollingExpandsWhenScrolledToEdge = false
         }

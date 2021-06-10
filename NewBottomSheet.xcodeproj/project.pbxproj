@@ -19,6 +19,8 @@
 		FD48954C26722DAB00B536B9 /* AnimalList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD48954B26722DAB00B536B9 /* AnimalList.storyboard */; };
 		FD48954F2672300200B536B9 /* AnimalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48954D2672300200B536B9 /* AnimalCollectionViewCell.swift */; };
 		FD4895502672300200B536B9 /* AnimalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD48954E2672300200B536B9 /* AnimalCollectionViewCell.xib */; };
+		FD720F47267242A300AA1171 /* HowToUse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD720F46267242A300AA1171 /* HowToUse.storyboard */; };
+		FD720F492672430B00AA1171 /* HowToUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD720F482672430B00AA1171 /* HowToUseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		FD48954B26722DAB00B536B9 /* AnimalList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnimalList.storyboard; sourceTree = "<group>"; };
 		FD48954D2672300200B536B9 /* AnimalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewCell.swift; sourceTree = "<group>"; };
 		FD48954E2672300200B536B9 /* AnimalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalCollectionViewCell.xib; sourceTree = "<group>"; };
+		FD720F46267242A300AA1171 /* HowToUse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HowToUse.storyboard; sourceTree = "<group>"; };
+		FD720F482672430B00AA1171 /* HowToUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				FD48951D267223CD00B536B9 /* SceneDelegate.swift */,
 				FD48951F267223CD00B536B9 /* ViewController.swift */,
 				FD489521267223CD00B536B9 /* Main.storyboard */,
+				FD720F482672430B00AA1171 /* HowToUseViewController.swift */,
+				FD720F46267242A300AA1171 /* HowToUse.storyboard */,
 				FD48954926722CC100B536B9 /* AnimalViewController.swift */,
 				FD48954B26722DAB00B536B9 /* AnimalList.storyboard */,
 				FD48954D2672300200B536B9 /* AnimalCollectionViewCell.swift */,
@@ -244,6 +250,7 @@
 				FD4895502672300200B536B9 /* AnimalCollectionViewCell.xib in Resources */,
 				FD489525267223CD00B536B9 /* Assets.xcassets in Resources */,
 				FD48954C26722DAB00B536B9 /* AnimalList.storyboard in Resources */,
+				FD720F47267242A300AA1171 /* HowToUse.storyboard in Resources */,
 				FD489523267223CD00B536B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD720F492672430B00AA1171 /* HowToUseViewController.swift in Sources */,
 				FD489520267223CD00B536B9 /* ViewController.swift in Sources */,
 				FD48951C267223CD00B536B9 /* AppDelegate.swift in Sources */,
 				FD48954A26722CC100B536B9 /* AnimalViewController.swift in Sources */,
